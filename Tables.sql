@@ -1,0 +1,15 @@
+CREATE TABLE `wp_inputs` (
+ `ID` bigint(20) NOT NULL AUTO_INCREMENT,
+ `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ `card_Choice` bigint(20) NOT NULL,
+ `user_IP` varchar(20) NOT NULL,
+ PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
+
+
+CREATE TABLE `wp_master` (
+ `ID` bigint(20) NOT NULL AUTO_INCREMENT,
+ `card_Name` varchar(255) NOT NULL,
+ `picks` bigint(20) NOT NULL,
+ PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
