@@ -1,0 +1,217 @@
+/*
+ Theme Name:   Haxel Child
+ Theme URI:    http://pick1pack1.com
+ Description:  Haxel Child Theme
+ Author:       Don R Walsh
+ Author URI:   http://donrwalsh.com
+ Template:     haxel
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  
+*/
+
+
+
+.wpum-single-profile {
+	text-align: left;
+}
+#charts {
+	display: inline-block !important;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#stats_pie_chart {
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-width: 200px;
+	width: 33%;
+}
+#rarity_graph {
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-width: 200px;
+	width: 33%;
+}
+#CMC_graph {
+	display: inline-block;
+	float: left;
+	min-width: 200px;
+	width: 33%
+}
+
+
+#foil-card {
+	display: inline-block;
+	position: relative;
+}
+
+#foil-card-text {
+	position:absolute; bottom:235px; font-size:24px; font-family:"vedana"; background:rgba(178,181,186,0.7);
+	padding:10px 20px; width:40%; text-align:center; margin-left: 67px;
+}
+
+#card {
+	display: inline-block;
+	position: relative;
+	}
+	
+#stat_card {
+display: inline-block;
+position: relative;
+margin-right: 30px;
+margin-bottom: 15px;
+line-height: 20px;
+}
+
+.set-box {
+    width: 20%;
+	min-width: 150px;
+    height: 80px;
+    line-height:30px;
+    float: left;
+    margin-bottom: 10px;
+}
+.ldr-box {
+    width: 20%;
+	min-width: 150px;
+    height: 80px;
+    line-height:30px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    width: 20%;
+	min-width: 150px;
+    height: 80px;
+    line-height:30px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#front-page-mega.mega-container {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#homepage-text {
+	width: 65%;
+	display: inline-block;
+}
+
+#primary.content-areas {
+	display: inline-block;
+	margin: 0 auto;
+	width: auto;
+}
+#primary.content-area {
+	display: inline-block;
+	margin: 0 auto;
+	width: auto;
+}
+#primary-mono.content-area {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: auto;
+	float: none;
+}
+.comment-content {
+	text-align: left;
+	}
+#main.site-main {
+	text-align: center;
+	float: none;
+	}
+#content.site-content.site-content {
+	display inline-block;
+	float: none;
+	margin: 0 auto;
+	}
+
+.wp-chart-wrap {
+	display: inline-block;
+	}
+
+#mypie.wp_charts_canvas {
+	display: inline-block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
+
+.page #masthead .container.container {
+     border-bottom-color: rgba(243, 225, 225, 0);
+     }
+
+.navbar-header {
+    float: left;
+    margin-left: 50px;
+}
+
+@media (min-width: 992px)
+bootstrap.min.css?ver=4.7.3:5
+.col-md-8 {
+    width: 100%;
+}
+
+#site-navigation#site-navigation ul {
+    float: left;
+}
+#site-navigation#site-navigation.main-navigation{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(73, 71, 148);
+
+    }
+	
+#site-navigation#site-navigation.front{
+    border-bottom-width: 0px;
+
+    }
+#content.site-content.site-content {
+	margin-top: 0px;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: center;
+	line-height: 15px;
+}
+
+#primary-mono.content-area {
+	display: inline-block
+	}
+
+.mega-container.mega-container {
+	max-width: 2000px;
+	text-align: center;
+}
+#masthead h1.set-title {
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 5px;
+  font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+  text-align: center;
+}
+#masthead.set-branding.set-branding {
+  padding: 5px 0;
+  overflow: hidden;
+  line-height: 10px;
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .page-branding {
+    text-align: center;
+    float: none;
+    padding-bottom: 5px;
+  }
+}
+#masthead.site-header.site-header {
+	min-height: 100px;
+	}
+	

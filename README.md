@@ -1,6 +1,16 @@
 # pick1pack1
 http://pick1pack1.com
 
+# 0.5 Notes
+
+Now that I'm getting into the groove of updating this website, I'm going to start storing code for each update in this repo.
+
+The individual updates getting to this point are covered on the website itself. From here on out, I'll take better notes here as well.
+
+# 0.0 Notes
+
+This version of the site was only 2 pages. All Random and All Random stats.
+
 Python file mtg.py used to create master.csv and collect 16,324 jpgs of unique cards.
 
 MAMP downloaded to host local Wordpress site for building. Used native upload tool to add all jpgs to site. Some were inexplicably turned into pngs, so a png->jpg plugin was used to fix. (https://wordpress.org/plugins/png-to-jpg/)
