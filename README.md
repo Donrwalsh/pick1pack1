@@ -1,6 +1,14 @@
 # pick1pack1
 http://pick1pack1.com
 
+# 0.6 Notes
+
+The update notes on the website summarize this update well. Other than the activity page, which was a simple addition of a Query I've been using to monitor activity for some time, all the updates have to do with performance. Indexing the pack_15 table is the biggest one, except that isn't anywhere in the code I include in this repo. 
+
+I modified a few items in my style.css file to remove floats and start down the road of sorting them all out. I removed a handful of actions from wp_head() that I determined weren't adding anything to the site (other than longer load times).
+
+It also turns out somewhere along the line I lost the line of code that properly includes a timestamp in the hash generation. My working theory is that this was the underlying cause for the reported 'invalid pick' on a fresh pack. Since the hash was being generated with only the 15 cards in the pack, it was only a matter of time until there was a collision. Users submitted over 6,000 picks since HOU went live, which means there were more than that number of packs generated. I'm hoping there are no more reports, and if that's the case I'll call off the search on this one.
+
 # 0.5 Notes
 
 Now that I'm getting into the groove of updating this website, I'm going to start storing code for each update in this repo.

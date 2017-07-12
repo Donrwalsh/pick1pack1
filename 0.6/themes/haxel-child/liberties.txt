@@ -1,0 +1,13 @@
+|GENERAL|
+- All packs are generally collated when printed. Rather than worry about this, I randomly
+	generate the contents of a pack based on card rarity.
+
+|SPECIFIC SETS|
+	
+	|Arabian Nights| 
+	- Did not monkey with U1, U2, etc. All cards are either common or uncommon. No cards 
+		are duplicated, so the site considers it a 78 card set.
+	
+	|Antiquities|
+	- As above, all cards were assigned simply common or uncommon. No duplicate lands were
+		included (Mishra's Factory, Mishra's Workshop and Urzatron all have one art)
